@@ -6,10 +6,7 @@
     "name": "Robson Alves",
     "url": "https://github.com/robsonalves"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/robsonalves/devops-plugins"
-  },
+  "repository": "https://github.com/robsonalves/devops-plugins",
   "license": "MIT",
   "keywords": [
     "devops",
