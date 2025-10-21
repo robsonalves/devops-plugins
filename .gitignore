@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+*.tfplan
+*.tfvars
+!example.tfvars
+.terragrunt-cache/
+
+# AWS
+.aws/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak

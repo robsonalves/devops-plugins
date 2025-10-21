@@ -1,0 +1,24 @@
+{
+  "name": "devops-toolkit",
+  "version": "1.0.0",
+  "description": "Comprehensive DevOps toolkit for Terraform, Terragrunt, Azure DevOps, Kubernetes, AWS, and more",
+  "author": {
+    "name": "Robson Alves",
+    "url": "https://github.com/robsonalves"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robsonalves/devops-plugins"
+  },
+  "license": "MIT",
+  "keywords": [
+    "devops",
+    "terraform",
+    "terragrunt",
+    "azure-devops",
+    "kubernetes",
+    "aws",
+    "cloudformation",
+    "iac"
+  ]
+}
