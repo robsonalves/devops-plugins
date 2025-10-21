@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "devops-toolkit",
-      "source": ".",
+      "source": "./",
       "description": "Comprehensive DevOps toolkit for Terraform, Terragrunt, Azure DevOps, Kubernetes, AWS, and Git workflows"
     }
   ]
