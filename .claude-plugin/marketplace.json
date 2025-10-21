@@ -1,12 +1,13 @@
 {
   "name": "devops-plugins",
-  "version": "1.0.0",
-  "description": "DevOps plugins marketplace with tools for Infrastructure as Code, CI/CD, and cloud management",
+  "owner": {
+    "name": "Robson Alves"
+  },
   "plugins": [
     {
       "name": "devops-toolkit",
-      "path": ".",
-      "description": "Comprehensive DevOps toolkit"
+      "source": ".",
+      "description": "Comprehensive DevOps toolkit for Terraform, Terragrunt, Azure DevOps, Kubernetes, AWS, and Git workflows"
     }
   ]
 }
