@@ -1,5 +1,10 @@
 # DevOps Toolkit Plugin for Claude Code
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/robsonalves/devops-plugins/releases)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-purple.svg)](https://docs.claude.com/en/docs/claude-code/plugins)
+
 A comprehensive DevOps plugin for Claude Code with commands for Terraform, Terragrunt, Azure DevOps, Kubernetes, AWS, CloudFormation, and Git workflow automation.
 
 ## Features
@@ -53,6 +58,17 @@ All commit commands follow the [Conventional Commits](https://www.conventionalco
 - `/cfn-status` - Check stack status and drift
 - `/aws-profile` - Manage AWS CLI profiles
 - `/aws-ssm` - AWS Systems Manager operations
+
+### Utilities
+
+**Quick Operations:**
+- `/git-cleanup` - Clean up merged Git branches
+- `/docker-prune` - Remove unused Docker resources
+- `/k8s-restart` - Restart Kubernetes deployments/pods
+
+## Quick Start
+
+Check out the [examples/](examples/) directory for complete workflows and the [templates/](templates/) directory for production-ready starter templates.
 
 ## Installation
 
@@ -216,6 +232,39 @@ AWS commands cover:
 - Parameter Store operations
 - Session Manager access
 - Systems Manager automation
+
+## Examples
+
+The [examples/](examples/) directory contains complete, real-world workflows:
+
+- **[Terraform Workflow](examples/terraform-workflow/)** - Complete infrastructure management with Terraform/Terragrunt
+- **[Kubernetes Deployment](examples/k8s-deployment/)** - Deploy and troubleshoot applications on Kubernetes
+- **[Azure Pipeline](examples/azure-pipeline/)** - Set up CI/CD with Azure DevOps
+- **[AWS Infrastructure](examples/aws-infrastructure/)** - Manage AWS resources with CloudFormation and SSM
+
+Each example includes step-by-step instructions, common scenarios, troubleshooting guides, and best practices from production experience.
+
+## Templates
+
+The [templates/](templates/) directory provides production-ready starter templates:
+
+- **[Terraform Module](templates/terraform-module/)** - Complete module structure with variables, outputs, and documentation
+- **[Kubernetes Deployment](templates/k8s-deployment/)** - Full K8s manifests with deployment, service, ingress, HPA, and more
+- **[Azure Pipeline](templates/azure-pipeline/)** - Multi-stage CI/CD pipeline with testing, Docker, and K8s deployment
+- **[CloudFormation Stack](templates/cloudformation-stack/)** - AWS VPC infrastructure with public/private subnets and NAT gateways
+
+Copy a template to your project and customize it for your needs:
+
+```bash
+# Copy Terraform module template
+cp -r templates/terraform-module my-new-module
+
+# Copy Kubernetes deployment
+cp -r templates/k8s-deployment my-app-k8s
+
+# Copy Azure pipeline
+cp templates/azure-pipeline/azure-pipelines.yaml .
+```
 
 ## Best Practices
 
