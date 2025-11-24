@@ -36,6 +36,11 @@ This plugin provides specialized slash commands to streamline your DevOps workfl
 
 All commit commands follow the [Conventional Commits](https://www.conventionalcommits.org/) specification and use English language.
 
+### Change Management
+
+**GMUD/Change Documentation:**
+- `/gmud` - Generate change management documentation ready for ITSM tools
+
 ### Container Orchestration
 
 **Kubernetes:**
@@ -150,6 +155,16 @@ git clone https://github.com/robsonalves/devops-plugins ~/ts/devops-plugins
 
 # Maintenance tasks
 /commit-chore
+```
+
+### Change Management
+
+```bash
+# Generate GMUD documentation
+/gmud
+
+# Provide context about the change you need to document
+# Claude will generate all required fields and tasks
 ```
 
 ### AWS Operations
