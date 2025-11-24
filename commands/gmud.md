@@ -125,37 +125,49 @@ Qual item de configuração que sofrerá alteração? (BKS, API, Lambdas, ETC)
 
 PRÉ-MUDANÇA:
 Título: Validações pré-mudança
-Data início: [DD/MM/AAAA HH:mm:ss]
-Data término: [DD/MM/AAAA HH:mm:ss]
-Grupo: [DO/NM/AAA HH:mm:ss]
-Ordem: 1
+Descrição da Tarefa:
 - [ ] Validar backups
 - [ ] Revisar PRs
 - [ ] [Outras validações]
+Data início: [DD/MM/AAAA HH:mm:ss]
+Data término: [DD/MM/AAAA HH:mm:ss]
+Descrição do Rollback:
+- [ ] [Passos para reverter as validações, se aplicável]
+Grupo: [DO/NM/AAA HH:mm:ss]
+Ordem: 1
 
 EXECUÇÃO:
 Título: Execução da mudança
+Descrição da Tarefa:
+- [ ] [Passos de execução]
 Data início: [DD/MM/AAAA HH:mm:ss]
 Data término: [DD/MM/AAAA HH:mm:ss]
+Descrição do Rollback:
+- [ ] [Passos para reverter a execução]
 Grupo: [DO/NM/AAA HH:mm:ss]
 Ordem: 2
-- [ ] [Passos de execução]
 
 PÓS-MUDANÇA:
 Título: Validações pós-mudança
+Descrição da Tarefa:
+- [ ] [Validações]
 Data início: [DD/MM/AAAA HH:mm:ss]
 Data término: [DD/MM/AAAA HH:mm:ss]
+Descrição do Rollback:
+- [ ] [Não aplicável - validações não requerem rollback]
 Grupo: [DO/NM/AAA HH:mm:ss]
 Ordem: 3
-- [ ] [Validações]
 
 ROLLBACK:
-Título: Plano de rollback
+Título: Plano de rollback (se necessário)
+Descrição da Tarefa:
+- [ ] [Passos de rollback completo]
 Data início: [DD/MM/AAAA HH:mm:ss]
 Data término: [DD/MM/AAAA HH:mm:ss]
+Descrição do Rollback:
+- [ ] [Esta É a tarefa de rollback - reverter para estado anterior]
 Grupo: [DO/NM/AAA HH:mm:ss]
 Ordem: 4
-- [ ] [Passos de rollback]
 
 ---
 
