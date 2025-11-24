@@ -4,6 +4,8 @@ Generate complete change management documentation for ServiceNow GMUD Planejada 
 
 Based on context provided, create all required fields matching the form structure.
 
+IMPORTANT: Use bullet points with hyphens (-) for all lists. Do NOT number items.
+
 ## Output Format
 
 **CAMPOS PRINCIPAIS:**
@@ -37,19 +39,25 @@ Análise de indisponibilidade / intermitência:
 **PLANEJAMENTO:**
 
 Plano de implementação:
-[Passos detalhados de execução]
+- [Passo detalhado]
+- [Passo detalhado]
+- [Passo detalhado]
 
 Responsáveis pelas atividades:
 [Nome/time responsável]
 
 Plano de retorno (Rollback):
-[Passos detalhados de reversão]
+- [Passo de reversão]
+- [Passo de reversão]
+- [Passo de reversão]
 
 Responsáveis pelo plano de retorno:
 [Nome/time responsável]
 
 Plano de teste pós-implementação:
-[Como validar que funcionou]
+- [Validação]
+- [Validação]
+- [Validação]
 
 Responsáveis pelas testes pós-implementação:
 [Nome/time responsável]
@@ -151,4 +159,4 @@ Ordem: 4
 
 ---
 
-Generate complete content for all fields. Ask user for context if needed.
+Generate complete content for all fields using bullet points with hyphens for lists. Ask user for context if needed.
